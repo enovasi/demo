@@ -9,4 +9,4 @@ class Customer(models.Model):
 
     name = fields.Char("Customer Name", required=True)
     email = fields.Char(help="To receive the newsletter")
-	clientesap = fields.Char("SAP Cardcode")
+    clientsap = fields.Char(help="SAP CARDCODE")
